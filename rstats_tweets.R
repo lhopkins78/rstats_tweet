@@ -36,7 +36,3 @@ rstats_tab <- rstats %>% mutate(date = ymd(substr(created_at,1,10))) %>%
   arrange(desc(retweet_count)) %>% slice(1:20) %>%
   formattable(align="l")
 rstats_tab
-library(htmlwidgets)
-library(webshot)
-saveWidget(rstats_tab, "temp.html")
-webshot("temp.html", "temp.png")
