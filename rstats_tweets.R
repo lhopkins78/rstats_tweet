@@ -22,7 +22,7 @@ token <- create_token(
 setup_twitter_oauth(
   api_key, api_secret_key, access_token, access_token_secret)
 
-#a function to download tweet data
+#a function to download tweet data - x is a hashtag or phrase in quotations y is number of tweets.
 search_tweet <- function(x,y) {
   search_tweets(x, n=y, include_rts = F)
 }
