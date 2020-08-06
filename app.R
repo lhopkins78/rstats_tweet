@@ -10,10 +10,10 @@ library(formattable)
 
 
 
-api_key <- "bg6K7uek7nNNlV5h73PZCan3z"
-api_secret_key <- "NioJmyJV0FOFy8g7PiDqzlTrLkhBVLLDZZA07F0pvJNRP0lmj3"
-access_token <- "1718329370-k1EeTQXEwpfwH0NSzserwlZUzqMh3ZTsyOSPMC0"
-access_token_secret <- "NOuaJtwrIDRnHiQbeOuHUQj8XEeVXQXE8KeHw5wGE6uL7"
+api_key <- "xxxxxxxxx"
+api_secret_key <- "xxxxxxxx"
+access_token <- "xxxxxxxxxx"
+access_token_secret <- "xxxxxxxxxxx"
 
 ## authenticate via web browser
 token <- create_token(
